@@ -4,5 +4,6 @@ version: 0.0.1
 apiVersion: v2
 keywords:
   - uptime-kuma
-sources:
-home:
+sources: 
+  - https://github.com/JasonRodriguez1474/j-helm-charts/tree/main/uptime-kuma
+home: https://github.com/JasonRodriguez1474/j-helm-charts/
