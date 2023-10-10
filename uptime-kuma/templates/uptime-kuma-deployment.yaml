@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   annotations:
     kompose.cmd: kompose convert -n uptime-kuma -c -o uptime-kuma
-    kompose.version: 1.30.0 (9d8dcb518)
+    kompose.version: 1.31.1 (HEAD)
   creationTimestamp: null
   labels:
     io.kompose.service: uptime-kuma
@@ -20,14 +20,14 @@ spec:
     metadata:
       annotations:
         kompose.cmd: kompose convert -n uptime-kuma -c -o uptime-kuma
-        kompose.version: 1.30.0 (9d8dcb518)
+        kompose.version: 1.31.1 (HEAD)
       creationTimestamp: null
       labels:
         io.kompose.network/uptime-kuma-default: "true"
         io.kompose.service: uptime-kuma
     spec:
       containers:
-        - image: louislam/uptime-kuma:1
+        - image: louislam/uptime-kuma:latest
           name: uptime-kuma
           ports:
             - containerPort: 3001

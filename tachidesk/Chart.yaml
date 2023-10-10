@@ -1,0 +1,9 @@
+name: tachidesk
+description: A generated Helm Chart for tachidesk from Skippbox Kompose
+version: 0.0.1
+apiVersion: v2
+keywords:
+  - tachidesk
+sources:  
+  - https://github.com/JasonRodriguez1474/j-helm-charts/tree/main/tachidesk
+home: https://github.com/JasonRodriguez1474/j-helm-charts

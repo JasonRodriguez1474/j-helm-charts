@@ -3,7 +3,7 @@ kind: Service
 metadata:
   annotations:
     kompose.cmd: kompose convert -n uptime-kuma -c -o uptime-kuma
-    kompose.version: 1.30.0 (9d8dcb518)
+    kompose.version: 1.31.1 (HEAD)
   creationTimestamp: null
   labels:
     io.kompose.service: uptime-kuma
